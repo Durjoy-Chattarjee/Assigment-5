@@ -1,0 +1,45 @@
+.navbar{
+    background-color: sandybrown;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgb(249, 247, 243);
+
+}
+.btn1 {
+    background: rgb(180, 244, 97);
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 16px;
+}
+.btn2 {
+    background-color: rgb(180, 244, 97);
+    padding: 17px;
+    border-radius: 10px;
+    width: 180px;
+}
+.btn3 {
+    background-color: rgb(180, 244, 97);
+    padding: 17px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.main-wraper{
+   
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;  
+    background: rgb(255, 255, 255);
+    
+}
+.item-img{
+    max-width: 50%;
+}
+.item-text1{
+    max-width: 50%;
+}
+
+.modal-box {
+    margin-left: 500px;
+    margin-bottom: 200px;
+}
