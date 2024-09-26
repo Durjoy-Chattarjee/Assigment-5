@@ -9,7 +9,10 @@
     background: rgb(180, 244, 97);
     font-weight: bold;
     border-radius: 10px;
-    padding: 16px;
+    height: 45px;
+    width: 100px;
+    text-align: center;
+    padding: 7px;
 }
 .btn2 {
     background-color: rgb(180, 244, 97);
