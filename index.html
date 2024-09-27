@@ -41,11 +41,11 @@
 
 
 
-    <main class="main-wraper" id="donated-display">
+    <main class="main-wraper pb-10" id="donated-display">
         <div class="container">
-            <div class="cont-item01 flex gap-10  mt-12">
+            <div class="cont-item01 lg:flex gap-10  mt-12">
                 <div class="item-img">
-                    <img src="./assets/noakhali.png" alt="">
+                    <img src="./assets/noakhali.png">
                 </div>
                 <div class="item-text1">
                     <div class="flex gap-3 h-10 w-36  border rounded-xl bg-blue-200 items-center">
@@ -62,48 +62,46 @@
                 </div>
             </div>
         </div>
-
         <div class="container">
-            <div class="cont-item01 flex gap-6 mt-12">
+            <div class="cont-item01 lg:flex gap-10  mt-12">
                 <div class="item-img">
                     <img src="./assets/feni.png" alt="">
                 </div>
-                <div class="item-text1">
-                    <div class="flex">
-                        <img src="./assets/coin.png" alt="">
-                        <h1 id="account-balance2">0 BDT</h1>
+                <div class="item-text1 pt-7">
+                    <div class="flex gap-3 h-10 w-36  border rounded-xl bg-blue-200 items-center">
+                        <img class="px-2" src="./assets/coin.png" alt="">
+                        <h1 id="account-balance1">500 BDT</h1>
                     </div>
 
-                    <h1>Donate for Flood Relief in Feni,Bangladesh</h1>
-                    <p> The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
-                    <input id="input-donate2" type="text" placeholder="Write Donation Amount" class="input input-bordered input-secondary w-full " />
-                    <br>
-                    <button id="donate-out2" class="btn btn-warning  w-full mt-2">Donate Now</button>
+                    <h1 class=" text-black text-xl pt-5 pb-5">Donate for Flood at Noakhali, Bangladesh</h1>
+                    <p class="pb-5"> The recent floods in Noakhali have caused significant damage to homes infrastructure. Your donation will help provide essential supplies and to those affected by this disaster. Every contribution, big or small, makes difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+                    <input id="input-donate1" type="text" placeholder="Write Donation Amount" class="input input-bordered input-secondary w-full  " />
+                    <div class="pt-8">
+                        <button id="donate-out1" class="btn btn-warning  w-full mt-2 pb ">Donate Now</button>
+                    </div>
                 </div>
             </div>
         </div>
-
         <div class="container">
-            <div class="cont-item01 flex gap-6 mt-12">
+            <div class="cont-item01 lg:flex gap-10  mt-12">
                 <div class="item-img">
                     <img src="./assets/quota-protest.png" alt="">
                 </div>
-                <div class="item-text1">
-                    <div class="flex">
-                        <img src="./assets/coin.png" alt="">
-                        <h1 id="account-balance3">2400 BDT</h1>
+                <div class="item-text1 pt-7">
+                    <div class="flex gap-3 h-10 w-36  border rounded-xl bg-blue-200 items-center">
+                        <img class="px-2" src="./assets/coin.png" alt="">
+                        <h1 id="account-balance2">2000 BDT</h1>
                     </div>
 
-                    <h1>Aid for Injured in the Quota Movement</h1>
-                    <p> The recent Quota movement has resulte in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.</p>
-                    <input id="input-donate3" type="text" placeholder="Write Donation Amount" class="input input-bordered input-secondary w-full " />
-                    <br>
-                    <button id="donate-out3" class="btn btn-warning  w-full mt-2">Donate Now</button>
-
+                    <h1 class=" text-black text-xl pt-5 pb-7">Donate for Flood at Noakhali, Bangladesh</h1>
+                    <p class="pb-7"> The recent floods in Noakhali have caused significant damage to homes infrastructure. Your donation will help provide essential supplies and to those affected by this disaster. Every contribution, big or small, makes difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+                    <input id="input-donate2" type="text" placeholder="Write Donation Amount" class="input input-bordered input-secondary w-full  " />
+                    <div class="pt-8">
+                        <button id="donate-out2" class="btn btn-warning  w-full mt-2 pb ">Donate Now</button>
+                    </div>
                 </div>
             </div>
         </div>
-
     </main>
 
     <!-- Open the modal using ID.showModal() method -->
@@ -129,8 +127,9 @@
     </section>
 
     <script src="js/addDonet.js"></script>
-    <script src="js/addDonet2.js"></script>
-    <script src="js/addDonet3.js"></script>
+    <script src="js/addDonate1.js"></script>
+    <script src="js/addDonate2.js"></script>
+    <script src="./js/history-donate.js"></script>
 </body>
 
 </html>

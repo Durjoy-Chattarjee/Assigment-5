@@ -1,15 +1,15 @@
-document.getElementById('donate-out')
+document.getElementById('donate-out1')
     .addEventListener('click', function (event) {
         event.preventDefault();
-        const inputDonate = document.getElementById("input-donate").value
+        const inputDonate = document.getElementById("input-donate1").value
         const inputDonateNumber = parseFloat(inputDonate);
         if (inputDonateNumber <= 0 || inputDonate.trim() === '') {
             alert('Falied to donate !Places try again.')
         } else {
-            const accountBalance = document.getElementById("account-balance").innerText
+            const accountBalance = document.getElementById("account-balance1").innerText
             const accountBalanceNumber = parseFloat(accountBalance);
             const totalMoney = accountBalanceNumber + inputDonateNumber;
-            document.getElementById("account-balance").innerText = totalMoney;
+            document.getElementById("account-balance1").innerText = totalMoney;
             const donateMoney = document.getElementById("donate-money").innerText
             const donateMoneyNumber = parseFloat(donateMoney);
             const remainingMoney = donateMoneyNumber - inputDonateNumber;
